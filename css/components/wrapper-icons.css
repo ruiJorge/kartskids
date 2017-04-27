@@ -1,11 +1,11 @@
 @font-face {
   font-family:'BebasNeueBold';
-  src: url('fonts/BebasNeueBold');
+  src: url('fonts/BebasNeue Bold.ttf');
 }
 
 @font-face {
   font-family:'BebasNeueBook';
-  src: url('fonts/BebasNeueBook');
+  src: url('fonts/BebasNeue Book.ttf');
 }
 
 .card h2{
