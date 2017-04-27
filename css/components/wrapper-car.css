@@ -1,19 +1,19 @@
 
 @font-face {
   font-family:'Dope_Script';
-  src: url('./fonts/Dope_Script.ttf');
+  src: url('fonts/Dope_Script.ttf');
 }
 @font-face {
   font-family:'Amatic-Bold';
-  src: url('./fonts/Amatic-Bold');
+  src: url('fonts/Amatic-Bold');
 }
 @font-face {
   font-family:'BebasNeueBold';
-  src: url('./fonts/BebasNeueBold');
+  src: url('fonts/BebasNeueBold');
 }
 @font-face {
   font-family:'BebasNeueLight';
-  src: url('./fonts/BebasNeueLight');
+  src: url('fonts/BebasNeueLight');
 }
 
 
