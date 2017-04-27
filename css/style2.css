@@ -1,0 +1,51 @@
+
+@import url("components/banner.css");
+@import url("components/navbar.css");
+@import url("components/wrapper-icons.css");
+@import url("components/card.css");
+@import url("components/wrapper-party.css");
+@import url("components/wrapper-car.css");
+
+
+
+
+
+@font-face {
+  font-family:'Dope_Script';
+  src: url('fonts/Dope_Script.ttf');
+}
+@font-face {
+  font-family:'Amatic-Bold';
+  src: url('fonts/Amatic-Bold');
+}
+@font-face {
+  font-family:'BebasNeueBold';
+  src: url('fonts/BebasNeueBold');
+}
+@font-face {
+  font-family:'BebasNeueLight';
+  src: url('fonts/BebasNeueLight');
+}
+
+.padded {
+    padding: 50px 0 50px 0;
+}
+
+.wrapper-icon {
+  background: url('../images/flagbackground.jpg') no-repeat;
+  background-size: cover;
+}
+
+.wrapper-party{
+  background: #F2992A;
+
+}
+
+.wrapper-car{
+  background: url('../images/flagbackground.jpg') no-repeat;
+  background-size: cover;
+
+
+}
+
+

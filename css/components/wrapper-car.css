@@ -1,0 +1,93 @@
+
+@font-face {
+  font-family:'Dope_Script';
+  src: url('./fonts/Dope_Script.ttf');
+}
+@font-face {
+  font-family:'Amatic-Bold';
+  src: url('./fonts/Amatic-Bold');
+}
+@font-face {
+  font-family:'BebasNeueBold';
+  src: url('./fonts/BebasNeueBold');
+}
+@font-face {
+  font-family:'BebasNeueLight';
+  src: url('./fonts/BebasNeueLight');
+}
+
+
+
+
+.col-xs-12 .col-md-6 .card-car{
+  position: relative;
+}
+
+
+.car-info img{
+  width: 65px;
+  height: auto;
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+
+}
+
+.car-info h3{
+font-family: BebasNeueBold;
+font-size: px;
+color: #AE700A;
+letter-spacing: 1.5px;
+}
+
+.car-info p{
+font-family: BebasNeueRegular;
+font-size: 18px;
+color: #AE700B;
+letter-spacing: 1px;
+text-align: justify;
+
+}
+
+.eco-icons h3{
+font-family: BebasNeueBold;
+font-size: 20px;
+color: #AE700A;
+letter-spacing: 1px;
+display: inline;
+}
+
+.card-eco1{
+  float: left;
+  list-style: none;
+  position: absolute;
+  bottom: -50px;
+  left: 50px;
+}
+
+.card-eco1 img{
+  width: 60px;
+  height: auto;
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+}
+
+.card-eco2{
+  float: left;
+  list-style: none;
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+}
+
+.card-eco2 img{
+  width: 60px;
+  height: auto;
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+
+}
+
+.card-photo img{
+  width: 461px;
+  height: 400;
+}

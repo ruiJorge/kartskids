@@ -1,0 +1,57 @@
+@font-face {
+  font-family:'BebasNeueBold';
+  src: url('fonts/BebasNeueBold');
+}
+
+@font-face {
+  font-family:'BebasNeueBook';
+  src: url('fonts/BebasNeueBook');
+}
+
+.card h2{
+  font-family: BebasNeueBold;
+  font-size: 30px;
+  color: #AE700A;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.card p{
+   font-family: BebasNeueBook;
+  font-size: 20px;
+  color: #AF7008;
+  letter-spacing: 1.05px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+
+
+.wrapper-icon .container{
+  margin-top: 50px;
+}
+
+.icons{
+  margin-top: 50px;
+}
+
+.card-test{
+  float: left;
+  list-style: none;
+}
+
+.card-test img{
+  width: 65px;
+  height: auto;
+}
+
+#h2-card{
+  font-family: BebasNeueBook;
+  font-size: 18px;
+  color: #AF7008;
+  letter-spacing: 2.05px;
+  width: 90px;
+}
+
+

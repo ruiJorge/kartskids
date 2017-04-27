@@ -1,0 +1,84 @@
+@font-face {
+  font-family:'Dope_Script';
+  src: url('./fonts/Dope_Script.ttf');
+}
+@font-face {
+  font-family:'Amatic-Bold';
+  src: url('./fonts/Amatic-Bold');
+}
+@font-face {
+  font-family:'BebasNeueBold';
+  src: url('./fonts/BebasNeueBold');
+}
+@font-face {
+  font-family:'BebasNeueLight';
+  src: url('./fonts/BebasNeueLight');
+}
+
+.card{
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+
+.card-description-icons h2{
+  font-family: BebasNeueBold;
+  font-size: 30px;
+  color: #AE700A;
+  letter-spacing: 1.5px;
+  text-align: center;
+
+}
+
+.card-description-icons p{
+  font-family: BebasNeueBook;
+  font-size: 20px;
+  color: #AF7008;
+  letter-spacing: 1.05px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: justify;
+  width: 350px;
+  text-align: justify;
+  position: absolute;
+  left: 80px;
+
+}
+
+.card-test{
+  padding: 0 25px 0 0;
+}
+
+.card-test img{
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+}
+
+#card-icons ul{
+  position: absolute;
+  top: 30px;
+}
+
+.wrapper-icon .container{
+  position: relative;
+}
+
+.wrapper-icon .btn-danger{
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+  font-family: BebasNeueBook;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 1.55px;
+
+  background: #D4361D;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 8px;
+  width: 125px;
+  height: 33px;
+}
+
+.btn img{
+  width: 20px;
+}

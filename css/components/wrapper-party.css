@@ -1,0 +1,136 @@
+@font-face {
+  font-family:'Dope_Script';
+  src: url('fonts/Dope_Script.ttf');
+}
+@font-face {
+  font-family:'Amatic-Bold';
+  src: url('fonts/Amatic-Bold');
+}
+@font-face {
+  font-family:'BebasNeueBold';
+  src: url('fonts/BebasNeueBold');
+}
+@font-face {
+  font-family:'BebasNeueLight';
+  src: url('fonts/BebasNeueLight');
+}
+
+
+
+
+/*.wrapper-party{
+  background: #F2992A;
+  /* Rectangle 3: */
+  /*background: rgba(242,153,42,0.65);
+}
+*/
+
+.wrapper-party .container{
+  position: relative;
+}
+
+.wrapper-party .card{
+  width: 492px;
+  height: 328px;
+  position: relative;
+}
+
+.photo-1 img{
+  width: 222,6px;
+  height: 178px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.photo-2 img{
+  width: 266px;
+  height: 151px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+ }
+
+ .photo-3 img{
+  width: 222,6px;
+  height: 146px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  left:  0px;
+  bottom:  0px;
+ }
+
+.photo-4 img{
+  width: 266px;
+  height: 173px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  right:   0px;
+  bottom:  0px;
+ }
+
+.card-party{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  right: 100px;
+  top: 0px;
+}
+
+.card-description-party h2{
+  font-family: BebasNeueBold;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1.5px;
+  text-align: left;
+
+}
+
+.card-description-party img{
+  width: 65px;
+  height: auto;
+  margin-left: 20px;
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+ }
+
+.card-description-party p{
+  font-family: BebasNeueBook;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1.05px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.wrapper-party .btn-danger{
+  position: absolute;
+  bottom: -35px;
+  right: 0px;
+  font-family: BebasNeueBook;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 1.55px;
+
+  background: #D4361D;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 8px;
+  width: 125px;
+  height: 33px;
+}
+
+.btn img{
+  width: 20px;
+}
+
