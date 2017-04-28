@@ -16,15 +16,15 @@
 }
 @font-face {
   font-family:'Amatic-Bold';
-  src: url('fonts/Amatic-Bold');
+  src: url('fonts/Amatic-Bold.ttf');
 }
 @font-face {
   font-family:'BebasNeueBold';
-  src: url('fonts/BebasNeueBold');
+  src: url('fonts/BebasNeueBold.otf');
 }
 @font-face {
   font-family:'BebasNeueLight';
-  src: url('fonts/BebasNeueLight');
+  src: url('fonts/BebasNeueLight.otf');
 }
 
 .padded {
