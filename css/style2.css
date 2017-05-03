@@ -7,9 +7,6 @@
 @import url("components/wrapper-car.css");
 
 
-
-
-
 @font-face {
   font-family:'Dope_Script';
   src: url('fonts/Dope_Script.ttf');
@@ -38,11 +35,10 @@
 
 .wrapper-party{
   background: #F2992A;
-
 }
 
 .wrapper-car{
-  background: url('../images/flagbackground.jpg') no-repeat;
+  background: linear-gradient(-180deg, rgba(250,217,97,0.03) 2%, #E69737 120%), url('../images/flagbackground.jpg') no-repeat;
   background-size: cover;
 
 

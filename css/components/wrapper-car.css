@@ -17,7 +17,9 @@
 }
 
 
-
+.wrapper-car{
+  height: 877px;
+}
 
 .card-car{
   position: relative;
@@ -88,6 +90,101 @@ display: inline;
 }
 
 .card-photo img{
-  width: 461px;
-  height: 400;
+  max-width: 100%;
+    height: auto;
+
+}
+
+.location-info h3{
+  font-family: BebasNeueBold;
+  font-size: px;
+  color: #AE700A;
+  letter-spacing: 1.5px;
+}
+
+.location-info p{
+  font-family: BebasNeueRegular;
+font-size: 18px;
+color: #AE700B;
+letter-spacing: 1px;
+text-align: justify;
+}
+
+.location-info img{
+
+  width: 60px;
+  height: auto;
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+}
+
+.card-contactus {
+  height: 380px;
+  width: 400px;
+  margin: 0;
+}
+
+.form-contact img{
+  width: 60px;
+  height: auto;
+  -webkit-filter: drop-shadow(0px 2px 4px #222);
+  filter: drop-shadow(0px 2px 4px #222);
+}
+
+.form-contact h3{
+  font-family: BebasNeueBold;
+  font-size: px;
+  color: #AE700A;
+  letter-spacing: 1.5px;
+}
+
+.form-contact input{
+
+  font-family: BebasNeueLight;
+  font-size: 18px;
+  color: #787775;
+  letter-spacing: 1px;
+  font-family: BebasNeueLight;
+  font-size: 18px;
+  color: #787775;
+  letter-spacing: 1px;
+}
+
+.form-contact input::placeholder{
+  text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+}
+
+.form-contact textarea{
+  margin-top: 15px;
+  height: 200px;
+  border-color: lightgrey;
+
+  font-family: BebasNeueLight;
+  font-size: 18px;
+  color: #787775;
+  letter-spacing: 1px;
+}
+
+.form-contact textarea::placeholder{
+  text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+}
+
+.wrapper-car .btn-danger{
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  font-family: BebasNeueBook;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 1.55px;
+
+  background: #D4361D;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 8px;
+  width: 125px;
+  height: 33px;
+}
+
+.btn img{
+  width: 20px;
 }

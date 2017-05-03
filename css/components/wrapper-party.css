@@ -15,11 +15,6 @@
   src: url('fonts/BebasNeueLight.otf');
 }
 
-
-.wrapper-party .container{
-  position: relative;
-}
-
 .wrapper-party .card{
   width: 492px;
   height: 328px;

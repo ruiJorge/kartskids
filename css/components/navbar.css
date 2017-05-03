@@ -1,19 +1,15 @@
 .navbar {
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2));
+  /*nbackground: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2));*/
   border-color: transparent;
 
-}
-.navbar a{
-  color:yellow;
+
 }
 
 .navbar-brand{
 font-family: 'Dope_script';
-font-size: 60px;
+font-size: 40px;
 margin-top: 10px;
 color: white;
+padding:15px;
 }
 
-.navbar-brand {
-  padding:15px;
-}
