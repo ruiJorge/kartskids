@@ -1,20 +1,4 @@
-
-@font-face {
-  font-family:'Dope_Script';
-  src: url('fonts/Dope_Script.ttf');
-}
-@font-face {
-  font-family:'Amatic-Bold';
-  src: url('fonts/Amatic-Bold.ttf');
-}
-@font-face {
-  font-family:'BebasNeueBold';
-  src: url('fonts/BebasNeueBold.otf');
-}
-@font-face {
-  font-family:'BebasNeueLight';
-  src: url('fonts/BebasNeueLight.otf');
-}
+@import url("fonts/fonts.css");
 
 
 .wrapper-car{
@@ -35,14 +19,14 @@
 }
 
 .car-info h3{
-font-family: BebasNeueBold;
+font-family: 'bebas_neuebold';
 font-size: px;
 color: #AE700A;
 letter-spacing: 1.5px;
 }
 
 .car-info p{
-font-family: BebasNeueRegular;
+font-family: 'bebas_neue_regularregular';
 font-size: 18px;
 color: #AE700B;
 letter-spacing: 1px;
@@ -51,7 +35,7 @@ text-align: justify;
 }
 
 .eco-icons h3{
-font-family: BebasNeueBold;
+font-family: 'bebas_neuebold';
 font-size: 20px;
 color: #AE700A;
 letter-spacing: 1px;
@@ -96,14 +80,14 @@ display: inline;
 }
 
 .location-info h3{
-  font-family: BebasNeueBold;
+  font-family: 'bebas_neuebold';
   font-size: 24px;
   color: #AE700A;
   letter-spacing: 1.5px;
 }
 
 .location-info p{
-  font-family: BebasNeueRegular;
+  font-family: 'bebas_neue_regularregular';
 font-size: 18px;
 color: #AE700B;
 letter-spacing: 1px;
@@ -141,7 +125,7 @@ text-align: justify;
 
 .social-media p{
   /* follow our social me: */
-font-family: BebasNeueBold;
+font-family: 'bebas_neuebold';
 font-size: 24px;
 color: #AE700A;
 }
@@ -160,7 +144,7 @@ color: #AE700A;
 }
 
 .form-contact h3{
-  font-family: BebasNeueBold;
+  font-family: 'bebas_neuebold';
   font-size: px;
   color: #AE700A;
   letter-spacing: 1.5px;
@@ -168,11 +152,10 @@ color: #AE700A;
 
 .form-contact input{
 
-  font-family: BebasNeueLight;
+  font-family: 'bebas_neuelight';
   font-size: 18px;
   color: #787775;
   letter-spacing: 1px;
-  font-family: BebasNeueLight;
   font-size: 18px;
   color: #787775;
   letter-spacing: 1px;
@@ -187,7 +170,7 @@ color: #AE700A;
   height: 200px;
   border-color: lightgrey;
 
-  font-family: BebasNeueLight;
+  font-family: 'bebas_neuelight';
   font-size: 18px;
   color: #787775;
   letter-spacing: 1px;
@@ -201,7 +184,7 @@ color: #AE700A;
   position: absolute;
   bottom: 0px;
   right: 100px;
-  font-family: BebasNeueBook;
+  font-family: 'bebas_neuebook';
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 1.55px;

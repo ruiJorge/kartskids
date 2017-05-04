@@ -1,19 +1,4 @@
-@font-face {
-  font-family:'Dope_Script';
-  src: url('./fonts/Dope_Script.ttf');
-}
-@font-face {
-  font-family:'Amatic-Bold';
-  src: url('./fonts/Amatic-Bold.ttf');
-}
-@font-face {
-  font-family:'BebasNeueBold';
-  src: url('./fonts/BebasNeueBold.otf');
-}
-@font-face {
-  font-family:'BebasNeueLight';
-  src: url('./fonts/BebasNeueLight.otf');
-}
+@import url("fonts/fonts.css");
 
 .card{
   width: 500px;
@@ -22,7 +7,7 @@
 }
 
 .card-description-icons h2{
-  font-family: BebasNeueBold;
+  font-family: 'bebas_neuebold';
   font-size: 30px;
   color: #AE700A;
   letter-spacing: 1.5px;
@@ -31,7 +16,7 @@
 }
 
 .card-description-icons p{
-  font-family: BebasNeueBook;
+  font-family: 'bebas_neuebook';
   font-size: 20px;
   color: #AF7008;
   letter-spacing: 1.05px;
@@ -67,7 +52,7 @@
   position: absolute;
   bottom: 0px;
   right: 40px;
-  font-family: BebasNeueBook;
+  font-family: 'bebas_neuebook';
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 1.55px;

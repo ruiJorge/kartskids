@@ -1,7 +1,6 @@
-@font-face {
-  font-family:'Amatic-Bold';
-  src: url('./fonts/Amatic-Bold.ttf');
-}
+
+@import url("fonts/fonts.css");
+
 
 .banner {
   background:linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 90%), url('../../images/home.jpg') no-repeat;
@@ -18,7 +17,7 @@
 }
 
 .banner p{
-  font-family: Amatic-Bold;
+  font-family: 'amaticbold';
   font-size: 34px;
   margin-bottom: 100px;
 }

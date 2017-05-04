@@ -1,15 +1,8 @@
-@font-face {
-  font-family:'BebasNeueBold';
-  src: url('fonts/BebasNeueBold.otf');
-}
+@import url("fonts/fonts.css");
 
-@font-face {
-  font-family:'BebasNeueBook';
-  src: url('fonts/BebasNeueBook.otf');
-}
 
 .card h2{
-  font-family: BebasNeueBold;
+  font-family: 'bebas_neuebold';
   font-size: 30px;
   color: #AE700A;
   letter-spacing: 1.5px;
@@ -17,7 +10,7 @@
 }
 
 .card p{
-   font-family: BebasNeueBook;
+   font-family: 'bebas_neuebook';
   font-size: 20px;
   color: #AF7008;
   letter-spacing: 1.05px;
