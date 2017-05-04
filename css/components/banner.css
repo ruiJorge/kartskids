@@ -14,6 +14,7 @@
   justify-content: space-around;
   align-items: center;
   color: white;
+  margin-top: 50px;
 }
 
 .banner p{
@@ -22,9 +23,6 @@
   margin-bottom: 100px;
 }
 
-.row{
-  margin-top: 50px;
-}
 
 .row img{
   max-width: 100%;
