@@ -24,6 +24,21 @@
   src: url('./fonts/BebasNeueLight.otf');
 }
 
+@font-face {
+  font-family:'BebasNeueBook';
+  src: url('./fonts/BebasNeueBook.otf');
+}
+
+@font-face {
+  font-family:'BebasNeueRegular';
+  src: url('./fonts/BebasNeueRegular.otf');
+}
+
+@font-face {
+  font-family:'BebasNeueThin';
+  src: url('./fonts/BebasNeueThin.otf');
+}
+
 .padded {
     padding: 50px 0 50px 0;
 }
