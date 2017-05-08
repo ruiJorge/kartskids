@@ -20,7 +20,7 @@
 
 .car-info h3{
 font-family: 'bebas_neuebold';
-font-size: px;
+font-size: 30px;
 color: #AE700A;
 letter-spacing: 1.5px;
 }
@@ -103,7 +103,9 @@ text-align: justify;
 }
 
 
-
+.social-media{
+  margin-top: 45px;
+}
 
 .social-icon{
   float: left;
@@ -113,13 +115,13 @@ text-align: justify;
   list-style-type: none;
   padding: 5px 5px;
 
+
 }
 
 .social-icon img{
-  width: 20px;
+  width: 23px;
   height: auto;
-  -webkit-filter: drop-shadow(0px 2px 4px #222);
-  filter: drop-shadow(0px 2px 4px #222);
+
 
 }
 
@@ -136,6 +138,10 @@ color: #AE700A;
   margin: 0;
 }
 
+.form-contact{
+  height: auto;
+
+}
 .form-contact img{
   width: 60px;
   height: auto;
@@ -184,8 +190,8 @@ color: #AE700A;
 
 .wrapper-car .btn-danger{
   position: absolute;
-  bottom: 0px;
-  right: 100px;
+  bottom: -40px;
+  right: 89px;
   font-family: 'bebas_neuebook';
   font-size: 18px;
   color: #FFFFFF;

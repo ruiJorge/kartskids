@@ -1,0 +1,46 @@
+
+footer {
+  background-color: blue;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+}
+
+.logo-footer {
+  max-width: 250px;
+}
+
+.footer-social a{
+  color: #fff;
+  font-size: 35px;
+  transition: opacity 0.5s ease;
+  opacity: 0.5;
+}
+
+.footer-social a:hover{
+  color: #fff;
+  font-size: 35px;
+  opacity: 1;
+}
+
+.footer-tagline {
+  opacity: 0.5;
+}
+
+ul.footer-links {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+
+
