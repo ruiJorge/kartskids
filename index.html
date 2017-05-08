@@ -171,11 +171,14 @@
                   <div class="col-xs-12 col-md-6">
                     <div class="form-contact text-center" style="background: transparent;">
                       <h3><img src="./images/email.png" alt="email"> Contact Us to Book Your Party</h3>
-                      <form method="POST" action="http://formspree.io/info@kidskarts.pt">
-
+                      <form method="POST" action="http://formspree.io/rui.a.jorge@gmail.com">
+                        <!--<input type="hidden" name="_next" value="/thanks.html" />-->
+                        <input type="hidden" name="_subject" value="New submission!" />
                         <input type="name" name="name" placeholder="NAME">
                         <input type="email" name="_replyto" placeholder="EMAIL"><br>
                         <textarea name="message" cols="41" rows="10" placeholder="TYPE YOUR MESSAGE HERE"></textarea>
+                        <!--honeypot" field to avoid spam-->
+                        <input type="text" name="_gotcha" style="display:none" />
                         <button type="submit" class="btn btn-danger">Send</button>
                       </form>
                     </div>
