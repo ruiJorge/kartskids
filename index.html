@@ -24,42 +24,43 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
-        </button>
-        <a class="navbar-brand" href="#">
-          Kids Karts
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="navMain">
-        <ul class="nav navbar-nav pull-right">
-          <li>
-            <a href="#">Home</a>
-          </li>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+      </button>
+      <a class="navbar-brand" href="#">
+        Kids Karts
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="nav navbar-nav pull-right">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Festas <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Tipo de Festas</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Festas <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="  true" aria-expanded="false">Eventos <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Tipo de Festas</a></li>
+              <li><a href="#">Tipos de Eventos</a></li>
               <li><a href="#">Another action</a></li>
               <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
             </ul>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="  true" aria-expanded="false">Eventos <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Tipos de Eventos</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-              <li><a href="#">Go-Karts</a></li>
-              <li><a href="#">Faq</a></li>
-              <li><a href="#banner-form" id="contacto">Contact Us</a></li>
-            </div>
+            <li><a href="#">Go-Karts</a></li>
+            <li><a href="#">Faq</a></li>
+            <li><a href="#banner-form" id="contacto">Contact Us</a></li>
           </div>
         </div>
+      </div>
+
         <section class="banner">
           <div class="container">
             <div class="row">
@@ -172,7 +173,7 @@
                   <div id="banner-form" class="form-contact text-center" style="background: transparent;">
                     <h3><img src="./images/email.png" alt="email"> Contact Us to Book Your Party</h3>
                     <form id="formaction" method="POST">
-                      <!--<input type="hidden" name="_next" value="/thanks.html" />-->
+                      <input type="hidden" name="_next" value="/thanks.html" />
                       <input type="hidden" name="_subject" value="New submission!" />
                       <input type="name" name="name" placeholder="NAME">
                       <input type="email" name="_replyto" placeholder="EMAIL"><br>
@@ -190,8 +191,8 @@
                 <div class="row">
                   <div class="col-xs-12 col-sm-4">
                     <%= image_tag 'logo.png', class:"image-responsive logo-footer" %>
-                    <h4 class="footer-tagline">Pizza for Protestors</h4>
-                    <p>Our goal is to fuel social progress (w/pizza) and support the brave people that speak truth to power.</p>
+                    <h4 class="footer-tagline">Kids Karts</h4>
+                    <p>Our goal is to provide fun and safe driving experiences to young kids</p>
                   </div>
                   <div class="col-xs-12 col-sm-4">
                     <h4>Navigation</h4>
