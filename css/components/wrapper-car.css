@@ -151,7 +151,7 @@ color: #AE700A;
 
 .form-contact h3{
   font-family: 'bebas_neuebold';
-  font-size: px;
+  font-size: 24px;
   color: #AE700A;
   letter-spacing: 1.5px;
 }
@@ -159,12 +159,9 @@ color: #AE700A;
 .form-contact input{
 
   font-family: 'open_sanslight';
-  font-size: 18px;
+  font-size: 17px;
   color: #787775;
-  letter-spacing: 1px;
-  font-size: 18px;
-  color: #787775;
-  letter-spacing: 1px;
+
 }
 
 .form-contact input::placeholder{
@@ -173,14 +170,14 @@ color: #AE700A;
 }
 
 .form-contact textarea{
-  margin-top: 15px;
+  margin-top: 17px;
   height: 200px;
   border-color: lightgrey;
   font-family: 'open_sanslight';
 
-  font-size: 18px;
+  font-size: 17px;
   color: #787775;
-  letter-spacing: 1px;
+
 }
 
 .form-contact textarea::placeholder{
