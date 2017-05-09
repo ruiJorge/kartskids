@@ -24,7 +24,7 @@
 </head>
 <body>
   <!-- NAVBAR -->
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top opaque-navbar">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
@@ -64,7 +64,7 @@
         <section class="banner">
           <div class="container">
             <div class="row">
-              <img src="./images/bannertext.svg" alt="Kids Karts">
+              <img src="./images/Kids-Karts.png" alt="Kids Karts">
               <p>The best and ultimate children's driving experience</p>
             </div>
           </div>
@@ -152,6 +152,7 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xs-12 col-md-6">
                   <div class="card-location" style="background: transparent;">
                     <div class="location-info">
@@ -169,11 +170,12 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xs-12 col-md-6">
                   <div id="banner-form" class="form-contact text-center" style="background: transparent;">
                     <h3><img src="./images/email.png" alt="email"> Contact Us to Book Your Party</h3>
                     <form id="formaction" method="POST">
-                      <input type="hidden" name="_next" value="thanks.html" />
+                      <input type="hidden" name="_next" value="./thanks.html" />
                       <input type="hidden" name="_subject" value="New submission!" />
                       <input type="name" name="name" placeholder="NAME">
                       <input type="email" name="_replyto" placeholder="EMAIL"><br>
@@ -186,10 +188,12 @@
                 </div>
               </div>
             </div>
+
+
             <footer>
               <div class="container">
                 <div class="row">
-                  <div class="col-xs-12 col-sm-4">
+                  <!-- <div class="col-xs-12 col-sm-4">
                     <%= image_tag 'logo.png', class:"image-responsive logo-footer" %>
                     <h4 class="footer-tagline">Kids Karts</h4>
                     <p>Our goal is to provide fun and safe driving experiences to young kids</p>
@@ -203,7 +207,7 @@
                       <li><%= link_to "Donate Pizza", protests_path %></li>
                       <li><%= link_to "Request Pizza", new_protest_path %></li>
                     </ul>
-                  </div>
+                  </div> -->
                   <div class="col-xs-12 col-sm-4">
                     <h4>Find us on social media</h4>
                     <ul class="list-inline footer-social">
@@ -234,5 +238,16 @@
                 }, 1000);
               });
             </script>
+
+          <!-- <script>
+            $(window).scroll(function() {
+    if($(this).scrollTop() > 700)  /*height in pixels when the navbar becomes non opaque*/
+    {
+        $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+    }
+});
+            </script> -->
           </body>
         </html>

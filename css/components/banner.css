@@ -7,7 +7,8 @@
   background-size: cover;
   background-position: right;
   width: auto !important;
-  height: auto !important;
+  /*height: auto !important;*/
+  height: 100vh;
   display: flex;
   text-align: center;
   justify-content: space-around;
