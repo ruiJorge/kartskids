@@ -185,7 +185,7 @@ color: #AE700A;
   ttext-shadow: 0 2px 4px rgba(0,0,0,0.70);
 }
 
-.wrapper-car .btn-danger{
+.wrapper-car .btn{
   position: absolute;
   bottom: -40px;
   right: 89px;
@@ -203,6 +203,11 @@ color: #AE700A;
 
 .btn img{
   width: 20px;
+}
+
+#banner-form .btn img{
+  margin-bottom: 2px;
+  margin-left: 3px;
 }
 
 
