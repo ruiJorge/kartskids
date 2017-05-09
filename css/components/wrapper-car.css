@@ -193,7 +193,7 @@ color: #AE700A;
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 1.55px;
-
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   background: #D4361D;
 
   border-radius: 8px;
