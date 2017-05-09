@@ -166,7 +166,7 @@ color: #AE700A;
 
 .form-contact input::placeholder{
   font-family: 'bebas_neuelight';
-  text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+  ttext-shadow: 0 2px 4px rgba(0,0,0,0.70);
 }
 
 .form-contact textarea{
@@ -182,7 +182,7 @@ color: #AE700A;
 
 .form-contact textarea::placeholder{
   font-family: 'bebas_neuelight';
-  text-shadow: 0 2px 4px rgba(0,0,0,0.70);
+  ttext-shadow: 0 2px 4px rgba(0,0,0,0.70);
 }
 
 .wrapper-car .btn-danger{
